@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Flipkart E2E Suite">
-  <test name="Add iPhone to Cart Test">
+<suite name="Test Suite">
+  
+  <test name="Flipkart End-to-End Test">
     <classes>
-      <class name="Flipkart.FlipkartEndToEndTest"/>
+      <class name="Flipkart.FlipkartEndToEnd"/>
     </classes>
   </test>
+  
+  <test name="SauceDemo Flow Check" enabled="false">
+    <classes>
+      <class name="FlowCheck.EndToEnd"/>
+    </classes>
+  </test>
+  
 </suite>

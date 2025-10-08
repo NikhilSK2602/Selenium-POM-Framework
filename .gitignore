@@ -1,0 +1,14 @@
+# Maven build artifacts
+target/
+
+# IDE files
+.classpath
+.project
+.settings/
+
+# Test output
+test-output/
+Reports/
+
+# Logs
+*.log
