@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-	<listeners>
-<listener class-name="resuableComponent.ListenersImplementation"/>
-</listeners>
-
-  <test name="Test">
+<suite name="Flipkart E2E Suite">
+  <test name="Add iPhone to Cart Test">
     <classes>
-      <class name="FlowCheck.EndToEnd"/>
+      <class name="Flipkart.FlipkartEndToEndTest"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
-
-
-
+  </test>
+</suite>
